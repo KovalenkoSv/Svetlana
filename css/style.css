@@ -1,19 +1,7 @@
-h1 {
-    color: brown;
-    font: 25px; ;
-    text-transform:uppercase ;
-}
-
-div {
-    width: 1200px;
-    margin: 0 auto;
-    background: greenyellow;
-}
- 
-
 *{
-box-sizing: border-box;
+	box-sizing: border-box;
 }
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -58,13 +46,75 @@ table {
 	border-spacing: 0;
 }
 
-html, body {
-scroll-behavior: smooth;
+
+.color-blue {
+color: blue;
+}
+.color-red {
+color: red;
+}
+.color-blueviolet {
+	color: blueviolet;
+}
+
+.links > a {
+	font-size: 20px;
+	color: coral;
+}
+.links {
+	margin-top: 20px;
+}
+.links > a + a {
+margin-left: 20px;
 }
 
 .container{
     width: 1200px;
     margin: 0 auto;
+}
+
+
+.bg-color-red {
+background: red ;	
+}
+
+.bg-color-pink {
+background: pink;	
+}
+
+.bg-color-greenyellow {
+background:greenyellow;	
+	}
+	.bg-color-yellow {
+	background: yellow;
+	}
+   .bg-color-paleturguois {
+    background: yellowgreen;
+	}
+   .bg-color-orange {
+	background: orange;	
+	}
+   .bg-color-paleturguois {
+	background: yellowgreen;	
+	}
+    .bg-color-green {
+    background: green;	
+	}
+     .bg-color-violet {
+		background: violet;
+	 }
+	
+.top-color > td + td {
+background: yellowgreen;
+}
+.bg-color-red {
+	background: red;
+}
+.bg-color-deeppink {
+	background: deeppink;
+}
+.bg-color-pink {
+	background: pink;
 }
 
 table, td, th {
