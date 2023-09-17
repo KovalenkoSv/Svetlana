@@ -1,4 +1,4 @@
-*{
+* {
 	box-sizing: border-box;
 }
 
@@ -20,7 +20,7 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+	vertical-align: top;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -48,83 +48,253 @@ table {
 
 
 .color-blue {
-color: blue;
+	color: blue;
 }
+
 .color-red {
-color: red;
+	color: red;
 }
+
 .color-blueviolet {
 	color: blueviolet;
 }
 
-.links > a {
+.links>a {
 	font-size: 20px;
 	color: coral;
 }
+
 .links {
 	margin-top: 20px;
 }
-.links > a + a {
-margin-left: 20px;
+
+.links>a+a {
+	margin-left: 20px;
 }
 
-.container{
-    width: 1200px;
-    margin: 0 auto;
+.container {
+	width: 1200px;
+	margin: 0 auto;
 }
 
 
-.bg-color-red {
-background: red ;	
-}
-
-.bg-color-pink {
-background: pink;	
-}
-
-.bg-color-greenyellow {
-background:greenyellow;	
-	}
-	.bg-color-yellow {
-	background: yellow;
-	}
-   .bg-color-paleturguois {
-    background: yellowgreen;
-	}
-   .bg-color-orange {
-	background: orange;	
-	}
-   .bg-color-paleturguois {
-	background: yellowgreen;	
-	}
-    .bg-color-green {
-    background: green;	
-	}
-     .bg-color-violet {
-		background: violet;
-	 }
-	
-.top-color > td + td {
-background: yellowgreen;
-}
 .bg-color-red {
 	background: red;
 }
-.bg-color-deeppink {
-	background: deeppink;
-}
+
 .bg-color-pink {
 	background: pink;
 }
 
-table, td, th {
-    border: 2px solid black;
+.bg-color-greenyellow {
+	background: greenyellow;
 }
-th, td {
-width: 70px; 
-height: 70px;
-}
-.header > tr> tr +tr { 
-    color: deeppink;
 
+.bg-color-yellow {
+	background: yellow;
 }
+
+.bg-color-paleturguois {
+	background: yellowgreen;
+}
+
+.bg-color-orange {
+	background: orange;
+}
+
+.bg-color-paleturguois {
+	background: yellowgreen;
+}
+
+.bg-color-green {
+	background: green;
+}
+
+.bg-color-violet {
+	background: violet;
+}
+
+.top-color>td+td {
+	background: yellowgreen;
+}
+
+.bg-color-red {
+	background: red;
+}
+
+.bg-color-deeppink {
+	background: deeppink;
+}
+
+.bg-color-pink {
+	background: pink;
+}
+
+table,
+td, th {
+	border: 2px solid black;
+}
+
+th, td {
+	width: 70px;
+	height: 70px;
+}
+
+.header>tr>tr+tr {
+	color: deeppink;
+}
+                      /* home work5    */
+
+.main-box div {
+outline: 2px solid black;
+} 
+.first-box  {
+font-size: 0;
+background: yellow;
+}
+.first-box > div {
+display: inline-block;
+font-size: 20px;
+width: 400px;
+height: 400px;
+}
+.second-box {
+font-size: 0;
+background: gold;
+}
+.second-box-one, .second-box-two {
+display: inline-block;
+font-size: 20px;
+width: 800px;
+}
+.second-box-one > div {
+height: 200px;
+}
+.second-box-two {
+width: 400px;
+background: blueviolet;
+}
+.second-box-two > div {
+height: 133.33px;
+}
+
+.third-box {
+font-size: 0;
+background: green;
+}
+
+.third-box-one {
+	display: inline-block;
+	font-size: 20px;
+	width: 400px;
+	height: 400px;
+	background: blueviolet;
+}
+
+.third-box-two {
+	display: inline-block;
+	font-size: 20px;
+	width: 800px;
+}
+
+.third-box-two > div {
+	height: 200px;
+}
+.third-box-two > div + div {
+	height: auto;
+	}
+	.third-box-two-botton {
+		font-size: 20px;
+	}
+	.third-box-two-botton > div {
+		width: 400px;
+		height: 200px;
+		display: inline-block;
+		font-size: 20px;
+	}
+	.third-box-two-botton > div + div {
+		height: auto;
+	}
+	.third-box-two-botton > div + div > div {
+		height: 100px;
+	}
+	
+
+                             /* HW6 */
+
+    .float-box div {
+    outline: 2px solid black;
+	} 
+	.float-first-box  {
+	float: left;
+	font-size: 20px;
+	background: yellow;
+	}							 
+    .first-box > div {
+	height: 300px;
+	font-size: 20px;
+	padding: 20px;
+	}
+     
+	.float-second-box {
+		float: left;
+		font-size: 20px;
+		background: burlywood;
+		}
+		.second-box-one, .second-box-two {
+		font-size: 20px;
+		width: 800px;
+		}
+		.second-box-one > div {
+		height: 200px;
+		padding:20px ;
+		font-size: 20px;
+		}
+		.second-box-two {
+		width: 400px;
+		background: blueviolet;
+		}
+		.second-box-two > div {
+		height: 133.33px;
+		}
+		
+		
+		.float-third-box {
+		float: left;
+		background: green;
+		font-size: 20px;
+		}
+			
+		.third-box-one {
+		float: left;
+		width: 400px;
+		background: palevioletred;
+		}
+			
+		.third-box-two {
+		float: left;
+		width: 800px;
+		background: plum;
+		}
+			
+		.third-box-two > div {
+		height: 200px;
+		padding: 20px;
+		font-size: 20px;
+		}
+		.third-box-two > div + div {
+		height: auto;
+			}
+		.third-box-two-botton {
+		float: left;
+		}
+		
+		.third-box-two-botton > div + div {
+		height: auto;
+		}
+		.third-box-two-botton > div + div > div {
+		height: 100px;
+		padding: 20px;
+		font-size: 20px;
+		}
+				
