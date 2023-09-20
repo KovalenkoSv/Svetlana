@@ -46,7 +46,11 @@ table {
 	border-spacing: 0;
 }
 
-
+.clearfix::after {
+content: ''; 
+clear: both;
+display: block;
+}
 .color-blue {
 	color: blue;
 }
@@ -143,7 +147,7 @@ th, td {
 .header>tr>tr+tr {
 	color: deeppink;
 }
-                      /* home work5    */
+                      /* home work 5    */
 
 .main-box div {
 outline: 2px solid black;
@@ -220,81 +224,139 @@ background: green;
 	}
 	
 
-                             /* HW6 */
+                             /* HW 6 */
 
     .float-box div {
     outline: 2px solid black;
 	} 
-	.float-first-box  {
-	float: left;
-	font-size: 20px;
-	background: yellow;
-	}							 
-    .first-box > div {
-	height: 300px;
-	font-size: 20px;
-	padding: 20px;
+	.float-first {
+		background: pink;
 	}
-     
-	.float-second-box {
+
+	.float-first > div {
 		float: left;
-		font-size: 20px;
-		background: burlywood;
-		}
-		.second-box-one, .second-box-two {
-		font-size: 20px;
-		width: 800px;
-		}
-		.second-box-one > div {
-		height: 200px;
-		padding:20px ;
-		font-size: 20px;
-		}
-		.second-box-two {
 		width: 400px;
-		background: blueviolet;
-		}
-		.second-box-two > div {
+		height: 400px;
+	}
+
+	.float-second  {
+		background: greenyellow;
+	}
+	.float-second > div {
+		float: left;
+	}
+	.float-second-one {
+		width: 800px;
+	}
+	.float-second-one > div {
+		height: 200px;
+	}
+	.float-second-two {
+		width: 400px;
+	}
+	.float-second-two > div {
 		height: 133.33px;
-		}
-		
-		
-		.float-third-box {
-		float: left;
-		background: green;
-		font-size: 20px;
-		}
-			
-		.third-box-one {
-		float: left;
-		width: 400px;
-		background: palevioletred;
-		}
-			
-		.third-box-two {
-		float: left;
-		width: 800px;
-		background: plum;
-		}
-			
-		.third-box-two > div {
-		height: 200px;
-		padding: 20px;
-		font-size: 20px;
-		}
-		.third-box-two > div + div {
-		height: auto;
+	}
+    .float-thirt {
+	background: blueviolet;
+}
+.float-thirt > div {
+	float: left;
+}
+.float-thirt-one {
+	width: 400px;
+	height: 400px;
+}
+.float-thirt-two {
+	width: 800px;
+}
+.float-thirt-two > div {
+	height: 200px;
+}
+.float-thirt-two >div + div {
+	height: auto;
+}
+.float-thirt-two-botton {
+	background: green;
+}
+.float-thirt-two-botton > div {
+	float: left;
+	width: 400px;
+	height: 200px;
+}
+.float-thirt-two-botton > div + div {
+height: auto;
+}
+.float-thirt-two-botton > div + div > div {
+height: 100px;
+}
+
+
+
+          /* HW 7 */
+
+		  .flex-box div {
+			outline: 2px solid black;
+			} 
+			.flex-first {
+				background: pink;
 			}
-		.third-box-two-botton {
-		float: left;
-		}
 		
-		.third-box-two-botton > div + div {
+			.flex-first > div {
+				float: left;
+				width: 400px;
+				height: 400px;
+			}
+		
+			.flex-second  {
+				background: greenyellow;
+			}
+			.flex-second > div {
+				float: left;
+			}
+			.float-second-one {
+				width: 800px;
+			}
+			.float-second-one > div {
+				height: 200px;
+			}
+			.float-second-two {
+				width: 400px;
+			}
+			.float-second-two > div {
+				height: 133.33px;
+			}
+			.flex-thirt {
+			background: blueviolet;
+		}
+		.flex-thirt > div {
+			float: left;
+		}
+		.float-thirt-one {
+			width: 400px;
+			height: 400px;
+		}
+		.float-thirt-two {
+			width: 800px;
+		}
+		.float-thirt-two > div {
+			height: 200px;
+		}
+		.float-thirt-two >div + div {
+			height: auto;
+		}
+		.flex-thirt-two-botton {
+			background: green;
+		}
+		.flex-thirt-two-botton > div {
+			float: left;
+			width: 400px;
+			height: 200px;
+		}
+		.float-thirt-two-botton > div + div {
 		height: auto;
 		}
-		.third-box-two-botton > div + div > div {
+		.float-thirt-two-botton > div + div > div {
 		height: 100px;
-		padding: 20px;
-		font-size: 20px;
 		}
-				
+		
